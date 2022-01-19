@@ -1,0 +1,23 @@
+<h1>
+    Selamat Datang Di Aplikasi Penampil Tabel Operasi Hitung
+</h1>
+<br/><br/>
+<table >
+    <thead >
+        <tr class="text-center">
+            <th scope="col">Tambah</th>
+            <th scope="col">Kurang</th>
+            <th scope="col">Kali</th>
+            <th  scope="col">Bagi</th>
+            <th scope="col">Sisa Bagi</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="text-center">
+            {% for c in hasil %}
+                <td>{{c}}</td>
+            {%endfor%}
+        </tr>
+    </tbody>
+</table>
+
